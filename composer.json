@@ -1,0 +1,19 @@
+{
+    "name": "reactphp-framework/redis-pool",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Reactphp\\Framework\\Redis\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "wpjscc",
+            "email": "wpjscc@gmail.com"
+        }
+    ],
+    "require": {
+        "reactphp-framework/pool": "^1.0",
+        "wpjscc/redis-react": "^3.0"
+    }
+}
