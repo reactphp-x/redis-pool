@@ -2,7 +2,7 @@
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Reactphp\Framework\Redis\Pool;
+use ReactphpX\Redis\Pool;
 use function React\Async\await;
 
 

@@ -2,7 +2,7 @@
 
 ## install
 ```
-composer require reactphp-framework/redis-pool -vvv
+composer require reactphp-x/redis-pool -vvv
 ```
 
 ## Usage
@@ -12,7 +12,7 @@ composer require reactphp-framework/redis-pool -vvv
 
 require __DIR__ . '/../vendor/autoload.php';
 
-use Reactphp\Framework\Redis\Pool;
+use ReactphpX\Redis\Pool;
 use function React\Async\await;
 
 

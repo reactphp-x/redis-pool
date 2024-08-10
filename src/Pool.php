@@ -1,8 +1,8 @@
 <?php
 
-namespace Reactphp\Framework\Redis;
+namespace ReactphpX\Redis;
 
-use Reactphp\Framework\Pool\AbstractConnectionPool;
+use ReactphpX\Pool\AbstractConnectionPool;
 use React\Socket\ConnectorInterface;
 use React\EventLoop\Loop;
 use React\EventLoop\LoopInterface;
