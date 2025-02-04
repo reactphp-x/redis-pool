@@ -16,13 +16,13 @@ use ReactphpX\Redis\Pool;
 use function React\Async\await;
 
 
-$pool = new Pool(getenv('REDIS_URL') ?: '127.0.0.1:6379', [
-    'min_connections' => 2, // 2 connection
-    'max_connections' => 10, // 10 connection
-    'max_wait_queue' => 100, // how many sql in queue
-    'wait_timeout' => 5, // wait time include response time
-    'keep_alive' => 60
-]);
+$pool = new Pool(
+    uri: getenv('REDIS_URL') ?: '127.0.0.1:6379',
+    minConnections: 2,
+    maxConnections: 10,
+    waitQueue: 100,
+    waitTimeout: 0,
+);
 
 // see https://github.com/clue/reactphp-redis?tab=readme-ov-file#quickstart-example
 await($pool->set('greeting', 'Hello world'));
