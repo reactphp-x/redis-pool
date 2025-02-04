@@ -13,7 +13,7 @@
         }
     ],
     "require": {
-        "reactphp-x/pool": "^1.0",
-        "wpjscc/redis-react": "^3.0"
+        "wpjscc/redis-react": "^3.0",
+        "reactphp-x/pool": "^2.0@dev"
     }
 }
