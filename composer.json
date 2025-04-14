@@ -14,6 +14,6 @@
     ],
     "require": {
         "wpjscc/redis-react": "^3.0",
-        "reactphp-x/pool": "^2.0@dev"
+        "reactphp-x/pool": "^2.0"
     }
 }
